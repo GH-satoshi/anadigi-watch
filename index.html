@@ -125,7 +125,8 @@
     </div>
 
     <script>
-    //// 時計のメモリを描く ////
+    //// アナログ時計を描く ////
+    // メモリを描く
     window.onload = function () {
         for (let i = 1; i <= 12; i++) {
             //scaleクラスの要素の最後にdiv要素を追加
@@ -137,7 +138,6 @@
         }
     }
 
-    //// アナログ時計を描く ////
     setInterval(function () {
         //時間を取得
         let now = new Date();
